@@ -4,7 +4,7 @@ const todoList = document.getElementById("todo-list");
 let toDoArray = [];
 const TODOS_KEY = "todos";
 
-
+todoInput.classList.add("todo-Input");
 todoForm.addEventListener("submit", submitToDo);
 
 function submitToDo(event) {
@@ -37,10 +37,11 @@ function showTodo(whatToDo) {
     // id 세팅하는 법
     li.id = whatToDo.id;
     const span = document.createElement("span");
-    span.innerText = `${whatToDo.text} `;
+    span.innerText = ` ${whatToDo.text} `;
+
     
     const btn = document.createElement("button");
-    btn.innerText = "❌";
+    btn.innerText = "🤍";
 
     todoList.appendChild(li);
     li.appendChild(span);
