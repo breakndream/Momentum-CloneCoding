@@ -1,7 +1,4 @@
 # Momentum-clone
 Momentum Clone Coding with Vanilla JS
 
-
-Pictures that I have used for the background are prohibited to be used commercially or used as a profile image.
-They can be only used for personal wallpapers.
-Please access the website (https://blog.naver.com/sub_lover) to use pictures.
+![image](https://user-images.githubusercontent.com/94573832/173623566-305035e3-4f3b-4acd-8779-0a7a039ab8a4.png)
